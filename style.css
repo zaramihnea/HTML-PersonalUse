@@ -6,31 +6,24 @@ body{
 .top_container{
     background-color: #9ad3bc;
     position: relative;
-    padding-right: 5px;
     padding-top: 100px;
 }
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 100%;
+.middle_container{
+    position: relative;
+    background-color: #ffda77;
+    padding-top: 0;
 }
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.bottom_container{
+    position: relative;
+    background-color: #ffa45b;
 }
-.navbar a.active{
-    background-color: maroon;
-    color: white;
+#credits{
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom:0;
 }
-.navbar a:hover{
-    background-color: grey;
+#skills_title{
+    margin-top: 0;
 }
 h1{
     font-size: 2rem;
@@ -66,18 +59,18 @@ p{
 }
 #cloud5{
     left: 10%;
-    top: 60%;
+    top: 40%;
 }
 #cloud6{
     right: 8%;
-    bottom: 20%;
+    bottom: 60%;
 }
 #cloud7{
     left: 50%;
-    bottom: 20%;
+    bottom: 45%;
 }
-.mountain_img{
-    width: auto;
+.parallax_img{
+    width: 100%;
     height: auto;
 }
 .dev_img{
@@ -92,6 +85,10 @@ p{
 #mihnea_img{
     top: 9%;
     right: 12%;
+}
+.skill-row{
+    width: 100%;
+    height: auto;
 }
 .skill_img{
     width: 15%;
@@ -112,21 +109,88 @@ p{
     .dev_img{
         width: 20%;;
     }
-    .mountain_img{
+    .parallax_img{
         width: 100%;
         height: auto;
     }
 }
 @media screen and (min-width: 540px) and (max-width: 540px) {
+    .top_container{
+        padding-top: 150px;
+    }
     .dev_img{
         width: 20%;;
     }
     #nick_img{
-        top: 4%;
+        top: 8%;
         left: 12%;
     }
     #mihnea_img{
-        top: 4%;
+        top: 8%;
         right: 12%;
     }
 }
+@media only screen and (min-width: 280px) and (max-width: 280px){
+    .navbar a {
+        float: left;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+    }
+}
+.about_nick{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 13%;
+    left: 5%;
+}
+.about_mihnea{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    right: 5%;
+    top: 13%;
+}
+.about_top_container{
+    background-color: #9ad3bc;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+    padding-left: 28%;
+    padding-right: 10%;
+}
+.about_mid_container{
+    background-color: wheat;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 28%;
+}
+.fa {
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #D62A90;
+    color: white;
+  }

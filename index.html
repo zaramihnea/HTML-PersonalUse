@@ -1,73 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
     <title>N&M</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<body>
-  <div class="navbar">
-    <a href="" class="active">Home</a>
-    <a href="https://www.fiverr.com/share/yWQXoZ">Hire us</a>
-    <a href="index2.html">About</a>
-    <a href="index3.html">Contact</a>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-success">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.fiverr.com/website__team/design-a-website-in-html-css-and-javascript">Hire us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">About us</a>
+          <a class="dropdown-item" href="contact.html">Contact</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+
   </div>
-  <br>
-    <div class="top_container">
-        <img src="cloud.png" class="small_cloud" alt="cloud_img" id="cloud1">
-        <img src="cloud.png" class="big_cloud" alt="cloud_img" id="cloud2">
-        <img src="cloud.png" class="small_cloud" alt="cloud_img" id=cloud3>
-        <img src="cloud.png" class="big_cloud" alt="cloud_img" id=cloud4>
-        <img src="cloud.png" class="small_cloud" alt="cloud_img" id=cloud5>
-        <img src="cloud.png" class="big_cloud" alt="cloud_img" id=cloud6>
-        <img src="cloud.png" class="small_cloud" alt="cloud_img" id=cloud7>
-        <h1>We are Nick and Mihnea</h1>
-        <p> web developers</p>
-        <img src="irimia.png" alt="Nick" class="dev_img" id="nick_img">
-        <img src="zara.png" alt="Mihnea" class="dev_img" id="mihnea_img">
-        <img src="mountain.png" alt="mountain_img" class="mountain_img">
+</nav>
+<div class="top_container">
+  <img src="cloud.png" class="small_cloud" alt="cloud_img" id="cloud1">
+  <img src="cloud.png" class="big_cloud" alt="cloud_img" id="cloud2">
+  <img src="cloud.png" class="small_cloud" alt="cloud_img" id=cloud3>
+  <img src="cloud.png" class="big_cloud" alt="cloud_img" id=cloud4>
+  <img src="cloud.png" class="small_cloud" alt="cloud_img" id=cloud5>
+  <img src="cloud.png" class="big_cloud" alt="cloud_img" id=cloud6>
+  <img src="cloud.png" class="small_cloud" alt="cloud_img" id=cloud7>
+  <h1>We are Nick and Mihnea</h1>
+  <p> web developers</p>
+  <img src="irimia.png" alt="Nick" class="dev_img" id="nick_img">
+  <img src="zara.png" alt="Mihnea" class="dev_img" id="mihnea_img">
+  <img src="parallax.png" alt="parallax_img" class="parallax_img">
+</div>
+<div class="middle_container">
+  <div class="skills">
+    <h2 id="skills_title">Our Skills</h2>
+    <div class="skill-row">
+      <img class="skill_img" src="computer.png" alt="computer-image">
+      <h3>HTML CSS JS</h3>
+      <p id="html_skills">Our passion for Web Design started when we were in 11th grade. Our Computer Science teacher asked us to code a web page using HTML. Both of us had the brilliant idea to team up and go over the limits and since our skills regarding web development kept evolving.</p>
     </div>
-    <div class="middle-container">
-        <div class="skills">
-          <h2>Our Skills</h2>
-          <div class="skill-row">
-            <img class="skill_img" src="computer.png" alt="computer-image">
-            <h3>HTML CSS JS</h3>
-            <p id="html_skills">Our passion for Web Design started when we were in 11th grade. Our Computer Science teacher asked us to code a web page using HTML. Both of us had the brilliant idea to team up and go over the limits and since our skills regarding web development kept evolving.</p>
-          </div>
-          <div class="skill-row">
-            <img class="skill_img" src="pan.gif" alt="pan">
-            <h3>Cooking - Mihnea</h3>
-            <p id="cooking_skills">My passion for cooking started when I was 11 and i made myself an egg. I was so proud of it and i started trying to make more elaborate types of food, and i mastered the art of cooking. I still have some things to learn but i can say i am pretty great at it and i occasionally bring food to Nick to help us focus on our work.</p>
-          </div>
-        </div>
-        <div class="skill-row">
-            <img class="skill_img" src="basketball.webp" alt="basketball">
-            <h3>Basketball - Nick</h3>
-            <p id="basketball_skills">What could I even say about basketball? I started playing when I was in 5th grade. I remember back then I was upset by the fact that I was among the shortest in my team :) Not many things have changed since, except the fact that my technique has become way better than it was.</p>
-          </div>
-        </div>
-        <br>
-        <br>
-        <script>
-          function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-          }
-          window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
-          }
-          </script>
+    <div class="skill-row">
+      <img class="skill_img" src="pan.gif" alt="pan">
+      <h3>Cooking - Mihnea</h3>
+      <p id="cooking_skills">My passion for cooking started when I was 11 and I made myself an egg. I was so proud of it and I started trying to make more elaborate types of food, and I mastered the art of cooking. I still have some things to learn but I can say I am pretty great at it and I occasionally bring food to Nick to help us focus on our work.</p>
+    </div>
+    </div>
+     <div class="skill-row">
+        <img class="skill_img" src="basketball.webp" alt="basketball">
+        <h3>Basketball - Nick</h3>
+        <p id="basketball_skills">What could I even say about basketball? I started playing when I was in 5th grade. I remember back then I was upset by the fact that I was among the shortest in my team :) Not many things have changed since, except the fact that my technique has become way better than it was.</p>
+      </div>
+      <br>
+      <br>
+  </div>
+  <div class="bottom_container">
+    <p id="credits">© 2020 Nick & Mihnea</p>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
